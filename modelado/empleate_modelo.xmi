@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI verified="false" xmi.version="1.2" timestamp="2025-05-06T12:24:07" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+<XMI verified="false" xmi.version="1.2" timestamp="2025-05-06T12:29:07" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
@@ -55,7 +55,7 @@
       <UML:Actor visibility="public" isSpecification="false" namespace="Use_Case_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uQbRLenyBc00O" name="Administrador"/>
       <UML:UseCase visibility="public" isSpecification="false" namespace="Use_Case_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uEtVfC0EUZFak" name="Actualizar información"/>
       <UML:UseCase visibility="public" isSpecification="false" namespace="Use_Case_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uoSEhrmMmjtnK" name="Acceder al historial académico"/>
-      <UML:UseCase visibility="public" isSpecification="false" namespace="Use_Case_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ubTYGNi4nUTTz" name="Registrar entregas_1"/>
+      <UML:UseCase visibility="public" isSpecification="false" namespace="Use_Case_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ubTYGNi4nUTTz" name="Registrar entregas"/>
       <UML:Association visibility="public" isSpecification="false" namespace="Use_Case_View" xmi.id="uZtVXlEfzzSSf" name="">
        <UML:Association.connection>
         <UML:AssociationEnd changeability="changeable" visibility="public" isNavigable="true" isSpecification="false" xmi.id="uRM1c7C4tIrXR" type="uerJcg05piOyg" name="" aggregation="none"/>
@@ -74,7 +74,7 @@
         <UML:AssociationEnd changeability="changeable" visibility="public" isNavigable="true" isSpecification="false" xmi.id="uPAx8bqS7FHk3" type="uoSEhrmMmjtnK" name="" aggregation="none"/>
        </UML:Association.connection>
       </UML:Association>
-      <UML:UseCase visibility="public" isSpecification="false" namespace="Use_Case_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uvbFFjlOldc2j" name="Modificar entregas_1"/>
+      <UML:UseCase visibility="public" isSpecification="false" namespace="Use_Case_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uvbFFjlOldc2j" name="Modificar entregas"/>
       <UML:Association visibility="public" isSpecification="false" namespace="Use_Case_View" xmi.id="uELkQXDnFIXK1" name="">
        <UML:Association.connection>
         <UML:AssociationEnd changeability="changeable" visibility="public" isNavigable="true" isSpecification="false" xmi.id="u4Mx7lI6uJ5Yt" type="uerJcg05piOyg" name="" aggregation="none"/>
@@ -144,7 +144,7 @@
      </UML:Namespace.ownedElement>
      <XMI.extension xmi.extender="umbrello">
       <diagrams resolution="120">
-       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="Casos_Usos_Empleate" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="1156.05" canvaswidth="1303.18" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="61.52787621294764" xmi.id="u5CSDxnBQs2jn" documentation="" showscope="1" snapgrid="0" showatts="1" type="2">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="Casos_Usos_Empleate" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="1156.05" canvaswidth="1303.18" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="93.57620873536673" xmi.id="u5CSDxnBQs2jn" documentation="" showscope="1" snapgrid="0" showatts="1" type="2">
         <widgets>
          <actorwidget width="146.952" showstereotype="1" x="-803.156" usesdiagramusefillcolor="0" y="-1065.3" usesdiagramfillcolor="0" isinstance="0" localid="uURSDtnnmKjs4" fillcolor="#c0c0ff" height="146.952" linecolor="#ff0000" xmi.id="uerJcg05piOyg" autoresize="0" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
          <actorwidget width="137.713" showstereotype="1" x="-786.92" usesdiagramusefillcolor="0" y="-292.804" usesdiagramfillcolor="0" isinstance="0" localid="uhvsNS2QFJhdj" fillcolor="#00ff00" height="137.713" linecolor="#ff0000" xmi.id="uaNLvjCcrHjPj" autoresize="0" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
@@ -153,8 +153,8 @@
          <boxwidget width="818.124" showstereotype="1" x="-630.434" usesdiagramusefillcolor="0" y="-1265.61" usesdiagramfillcolor="0" isinstance="0" localid="u4uDA5R6kOdvD" fillcolor="#ffff00" height="1156.05" linecolor="#000000" xmi.id="uq7kj4zTc02kP" autoresize="0" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
          <usecasewidget width="167" showstereotype="1" x="-302.578" usesdiagramusefillcolor="0" y="-1140.35" usesdiagramfillcolor="0" isinstance="0" localid="utSaO5RVi0C19" fillcolor="#c0c0ff" height="53" linecolor="#ff0000" xmi.id="uEtVfC0EUZFak" autoresize="1" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
          <usecasewidget width="186" showstereotype="1" x="-299.08" usesdiagramusefillcolor="0" y="-923.473" usesdiagramfillcolor="0" isinstance="0" localid="uvxqyEmRT5bD0" fillcolor="#c0c0ff" height="50" linecolor="#ff0000" xmi.id="uoSEhrmMmjtnK" autoresize="1" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
-         <usecasewidget width="131" showstereotype="1" x="-278.093" usesdiagramusefillcolor="0" y="-1066.9" usesdiagramfillcolor="0" isinstance="0" localid="u9AiMJbCtNmeq" fillcolor="#c0c0ff" height="50" linecolor="#ff0000" xmi.id="ubTYGNi4nUTTz" autoresize="1" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
-         <usecasewidget width="131" showstereotype="1" x="-267.598" usesdiagramusefillcolor="0" y="-1002.18" usesdiagramfillcolor="0" isinstance="0" localid="ujQHsQmSFiQRl" fillcolor="#c0c0ff" height="50" linecolor="#ff0000" xmi.id="uvbFFjlOldc2j" autoresize="1" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
+         <usecasewidget width="117" showstereotype="1" x="-278.093" usesdiagramusefillcolor="0" y="-1066.9" usesdiagramfillcolor="0" isinstance="0" localid="u9AiMJbCtNmeq" fillcolor="#c0c0ff" height="50" linecolor="#ff0000" xmi.id="ubTYGNi4nUTTz" autoresize="1" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
+         <usecasewidget width="117" showstereotype="1" x="-267.598" usesdiagramusefillcolor="0" y="-1002.18" usesdiagramfillcolor="0" isinstance="0" localid="ujQHsQmSFiQRl" fillcolor="#c0c0ff" height="50" linecolor="#ff0000" xmi.id="uvbFFjlOldc2j" autoresize="1" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
          <usecasewidget width="180" showstereotype="1" x="-272.845" usesdiagramusefillcolor="0" y="-825.529" usesdiagramfillcolor="0" isinstance="0" localid="ujgkoxIlJ42FF" fillcolor="#ffc0c0" height="50" linecolor="#ff0000" xmi.id="uQP3A3b51xlm6" autoresize="1" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
          <usecasewidget width="130" showstereotype="1" x="-223.873" usesdiagramusefillcolor="0" y="-741.577" usesdiagramfillcolor="0" isinstance="0" localid="uhjvaDBbiyXH5" fillcolor="#ffc0c0" height="50" linecolor="#ff0000" xmi.id="uyEva8H11GRSe" autoresize="1" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
          <usecasewidget width="133" showstereotype="1" x="-223.873" usesdiagramusefillcolor="0" y="-472.232" usesdiagramfillcolor="0" isinstance="0" localid="uVqgELQna5Tiz" fillcolor="#00c000" height="53" linecolor="#ff0000" xmi.id="ueJAF9OoKakKS" autoresize="1" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
